@@ -1,0 +1,68 @@
+h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    height:500px;
+
+}
+
+.class1{
+    background-color: whitesmoke;
+
+}
+
+.class2{
+    background-color: gray;
+
+    
+}
+
+.open{
+    background-color: yellow;
+    border: 1px ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+.progress{
+    background-color: green;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.onhold{
+    background-color: red;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+th ,td{
+    padding-top: 10px;
+    padding-right:50px;
+    padding-bottom:5px;
+    padding-left:50px;
+    border: 1px;
+    border-spacing: 0;
+}
+
+th{
+    
+    background: conic-gradient(lightpink, white, powderblue);
+}
+
+body{
+    background: linear-gradient(lightpink, white,indigo , powderblue);
+      
+}

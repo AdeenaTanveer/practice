@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+h1{
+   font-family: 'Square Peg', cursive;
+   color: darkkhaki;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Square+Peg&display=swap');
+p{
+    color: darkolivegreen;
+    font-family: 'Shadows Into Light', cursive;
+}
+  
+ul{
+    color: coral;
+    font-family:  'Shadows Into Light', cursive;
+}
