@@ -1,0 +1,157 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+#div-start{
+    background-color: lightcoral;
+    width: 15%;
+    margin: 0;
+    float: right;
+    padding: 19.5px;
+}
+
+.div-start1{
+    background-color: lightcoral;
+    width: 85%;
+    margin: 0;
+    padding: 10px;
+}
+
+.span2{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px;
+}
+.span2:hover{
+    color: blue;
+
+}
+
+.div-tag2{
+    background-image:url('https://img.freepik.com/free-psd/man-working-laptop-concept_23-2148491757.jpg?w=2000');
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin: 0;
+    padding-top: 110px;
+    background-size: 1350px;
+}
+
+.span1{
+    color: yellow;
+}
+
+.span3{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.class2{
+    text-decoration: none;
+    border: 2px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: royalblue;
+}
+
+.form-group{
+    background-color: lightcoral;
+    width: 23.25%;
+    float: right;
+    padding: 16.35px;
+}
+
+.form-control
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px ;
+    position: relative;
+    border: none;
+}
+
+.button5{
+    padding: 10px;
+    border-radius: 2px ;
+    background-color: red;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+}
+
+.drink{
+    
+    height: 58px;
+    padding-top: 10px ;
+    background-color: lightcoral;
+    width: 74.5%;
+}
+
+.span4{
+    padding-left: 20px;
+}
+
+.food{
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.div-tag5{
+    display: inline-block;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+     margin-right: 2px;
+    margin-left: 150px;
+}
+
+.div-tag6{
+    display: inline-block;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right:6px;
+}
+
+.div-tag7{
+    display: inline-block;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.div-tag8{
+    display: block;
+    background-color: lightcoral;
+    width: 1348px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px ;
+}
+
+.snap15{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

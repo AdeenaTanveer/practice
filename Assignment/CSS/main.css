@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#div-start{
+    background-color: lightcoral;
+    width: 15%;
+    margin: 0;
+    float: right;
+    padding: 19.5px;
+}
+
+.div-start1{
+    background-color: lightcoral;
+    width: 85%;
+    margin: 0;
+    padding: 10px;
+}
+
+.span2{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px;
+}
+
+.span1{
+    color: yellow;
+}
+
+.form-group{
+    background-color: lightcoral;
+    width: 23.25%;
+    float: right;
+    padding: 16.35px;
+}
+
+.form-control
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px ;
+    position: relative;
+    border: none;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px ;
+    background-color:brown;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button1{
+    padding: 10px;
+    border-radius: 5px ;
+    background-color: brown;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+.drink{
+    
+    height: 58px;
+    padding-top: 10px ;
+    background-color: lightcoral;
+    width: 74.5%;
+}
+
+.span4{
+    padding-left: 10px;
+}
+
+.div-initial{
+    text-align: center;
+    display: block;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+}
+
+.div-end{
+    text-align: center;
+    padding-top: 50px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    padding-left: 250px;
+}
+.inisialization2{
+   padding-left: 10px;
+}
+.inisialization3{
+    padding-left: 10px;
+ }
+.inisialization4{
+    padding-left: 10px;
+}
+.inisialization5{
+    padding-left: 10px;
+}
+.span10{
+    padding: 20px;
+}
+
+.container
+{
+    display: block;
+    width: 1148px;
+    height: 400px;
+    background-color: lightsalmon;
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.foam-start{
+    padding: 10px;
+}
+
+.form-blocks
+{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.snap8{
+    padding-bottom: 8px;
+}
+
+.first-foam{
+    text-align: center;
+    padding-right: 200px;
+}
+
+.div-tag8{
+    display: block;
+    background-color: lightcoral;
+    width: 1348px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px ;
+}
