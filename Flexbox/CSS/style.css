@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Hedaer */
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 5px solid green;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.span1{
+    color: chartreuse;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+
+ul li {
+   
+    margin: 0 20px;
+}
+a{
+   
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+a:hover{
+    
+    background-color: chartreuse ;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Section 1 */
+.Home{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.flex1{
+    background: url('https://images.unsplash.com/photo-1530686577637-0ccce382b327?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmclMjBhdCUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&w=1000&q=80') ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-bottom: 5px solid  chartreuse;
+    background-size: cover;
+    color: darkgreen;
+   
+   
+}
+
+
+.flex1 a{
+    background-color: chartreuse;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.flex1 a:hover{
+    background-color: darkolivegreen;
+
+}
+
+.heading1{
+    font-size: 4.3rem;
+}
+.span2{
+    color: aliceblue;
+}
+.para1{
+    font-size: 2.3rem;
+}
+
+/* Section 2 */
+
+.div-tag2{
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 2px solid  chartreuse;
+
+}
+
+.heading2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 300px;
+
+}
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+height: 135px;
+    text-align: center;
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px;
+    margin-left: 50px;
+    text-align: center;
+    height: 135px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    margin-right: 208px;
+    text-align: center;
+    height: 135px;
+
+} 
+
+/* Section 3 */
+
+.conjunction{
+    display: flex;
+}
+.pic-ture{
+    width:105vw;
+    height: 350px;
+}
+
+.heading4{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+}
+.span6{
+    padding-top: 20px;
+    padding-left: 17px;
+    padding-bottom: 5px;
+}
+.para2{
+    padding-left: 17px;
+}
+.second-list li{
+    list-style:  none;
+    padding: 10px;
+    padding-left: 0px;
+    border-bottom: 2px dotted gray;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+
+/* Section 4 */
+.similique{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid  chartreuse;
+    
+}
+.sapiente{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 189px;
+
+
+
+}
+.initialization1{
+    display: flex;
+    width: 171px;
+    height: 171px;
+    padding: 20px;
+    
+}
+.initialization2{
+    display: flex;
+    width: 168px;
+    height: 170px;
+    padding: 20px;
+}
+.initialization3{
+    
+    display: flex;
+    width: 173px;
+    height: 174px;
+    padding: 20px;
+}
+.initialization4{
+    display: flex;
+    width:170px;
+    height: 170px;
+    padding: 20px;
+}
+.initialization5{
+    display: flex;
+    width:173px;
+    height: 175px;
+    padding: 20px;
+}
+
+/* section 5 */
+
+.first-sec{
+    display: flex;
+}
+.span34{
+    background-color: forestgreen;
+    color: aliceblue;
+    width: 79%;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+
+.foam-start{
+    padding: 5px;
+}
+
+.form-blocks
+{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button1{
+    padding: 10px;
+    border-radius: 5px ;
+    background-color: limegreen;
+    color: bisque;
+    border: none;
+    cursor: pointer;
+    width: 600px;
+  
+}
+.button1:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.end-of-pic{
+    width:90vw;
+    height: 350px;
+}
+/* footer */
+.div-tag8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+}
+
+

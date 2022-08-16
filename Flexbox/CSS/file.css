@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+   /* header */
+.container{
+    background: url('https://assets.vogue.com/photos/5f7b88c4a86ef9454d7e992a/master/w_3600,h_2400,c_limit/EQUINOX+%20IN%20THE%20WILD%20-%2012.jpg');
+    height: 760px;
+    border-bottom: 4px solid deepskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Home{
+    height: 760px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    border-bottom: 2px solid  deepskyblue ;
+    background:  rgba(107, 93, 93, 0.8);
+    padding: 20px 40px;
+    color: lightyellow;
+    position: fixed;
+}
+.span1{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+.header1{
+    margin-left: -89px;
+    padding: 25px;
+    padding-bottom: 2px;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 140px;
+}
+li {
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+    padding: 30px;
+    font-size: 20px;
+}
+a:hover{
+    color: beige;
+    border-radius: 10px;
+}
+.form-control{
+    border: 1px solid deepskyblue ;
+    border-radius: 9px;
+    background-color: beige;
+    padding: 9px;
+}
+button{
+    border: none;
+    border-radius: 9px;
+    background-color: deepskyblue;
+    color: beige;
+    padding: 10px;
+    width: 90px;
+    cursor: pointer;
+}
+button:hover{
+    color: beige;
+    background-color: dodgerblue;
+}
+    /* Section1 */
+.navigation2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    color:deepskyblue ;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+.head{
+    font-size: 3rem;
+}
+.porro{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.reference1{
+    background-color: deepskyblue;
+    color: beige;
+    height: 55px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.reference1:hover{
+    background-color: dodgerblue;
+}
+  
+/* Section2 */
+
+/* Also Part of section 3 and 4 till .span20 */
+.section4{                          
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    padding-top: 10px;
+}
+.head2{
+    font-size: 3rem;
+}
+.span20{
+    color: deepskyblue;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    margin-left: 300px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 1rem!important;
+    background-color: deepskyblue;
+}
+   
+
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 1rem!important;
+    border-radius: 30px;
+    background-color: deepskyblue;
+}
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 300px;
+    padding: 1rem!important;
+    border-radius: 30px;
+    background-color: deepskyblue;
+  
+}
+.button2{
+    background-color: beige;
+    color: black;
+}
+
+/* Section3 */
+.container3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 715px;
+}
+img{
+    width: 350px;
+    height: 500px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray; 
+    height: 700px;
+    margin-left: 300px;
+    margin-right: 5px;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+   
+.box3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 700px;
+    margin-left: 5px;
+    margin-right: 300px;
+    align-items: center;
+}
+.para3{
+    padding:0px  50px;
+    padding-bottom: 10px;
+}
+.rel{
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+.rel:hover{
+    background-color: dodgerblue;
+    color: beige;
+    border-radius: 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+h1{
+    padding: 15px;
+    font-size: 30px;
+}                                 
+
+
+/* Section4 */
+
+.container6{
+    background: url('https://img.freepik.com/premium-photo/gym-equipments-fitness-club_23-2147949744.jpg?w=2000');
+    background-size: cover;
+    height: 950px;
+    background-attachment: fixed;
+    
+}
+.History{
+    height: 950px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.cover{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: darkgray;
+    margin-top: 30px;
+    border-top: 4px solid deepskyblue;
+}
+.cover h1{
+    font-size: 3rem;
+}
+
+.initial{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    text-justify: auto;
+    height: 350px;
+}
+.initial img{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+} 
+
+.end{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+
+.span2::before{
+    content: "\2014\0020";
+
+}
+
+.ita{
+    font-style: italic;
+    font-weight: 100;
+}
+.span10{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+.span11{
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    height: 225px;
+    width: 600px;
+    margin:  40px; ;
+   
+}
+.span11 a{
+    width: 150px;
+   
+}
+.span12{
+    display:flex ;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    height: 340px;
+
+}
+.foam-start{
+    padding: 10px;
+}
+.form-blocks
+{
+    display: flex;
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid deepskyblue;
+}
+.formulation1{
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border:  2px solid deepskyblue;
+}
+.button1{
+    width: 600px;
+    background-color: beige;
+    color: deepskyblue;
+    border:2px solid skyblue;
+}
+.span21{
+    color: beige;
+}
+/* footer */
+.div-tag8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: gray;
+    color: deepskyblue;
+    border-top: 5px solid deepskyblue;
+}
+

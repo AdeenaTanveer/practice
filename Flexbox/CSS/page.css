@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    background: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id629286010?b=1&k=20&m=629286010&s=170667a&w=0&h=w7wNiD7XJ6ukW3u-7y8ZHJMGtFDELC-E_MJn0Q5o3ZY=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.top{
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 120px;
+    padding: 20px;
+ 
+   
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+   
+ 
+    color: deeppink;
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+   
+}
+.head1{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+   height: 64px;
+   margin-left: 260px;
+ 
+   
+  
+}
+ li{
+    list-style: none;
+    padding: 20px;
+    margin-left: 25px;
+  
+ }
+li a{
+    text-decoration: none;
+    color: deeppink;
+    
+}
+a:hover{
+    color: dodgerblue;
+}
+.button1{
+    width: 120px;
+    border:none;
+    border-radius: 20px;
+    color: navy;
+    background-color: deeppink;
+    height: 40px;
+    cursor: pointer;
+
+    margin-top: 8px;
+    margin-right: 85px;
+}
+.button1:hover{
+    background-color: dodgerblue;
+    color: deeppink;
+}
+
+.head2{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    color: deeppink;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+img{
+    height: 330px;
+    width: 340px;
+}
+
+/* .cipd{
+    display: flex;
+    background-color: aqua;
+    height: 1500px;
+  
+   
+} */
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 2rem;
+}
+
+ .image1{
+    display: flex;
+   
+    margin: 10px;
+    margin-left: 96px;
+    margin-right: 96px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.span1{
+    padding-right: 15px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    
+} 
+
+
+.div-tag8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: dodgerblue;
+    color: deeppink;
+    border-top: 5px solid deeppink;
+    flex-wrap: wrap;
+}

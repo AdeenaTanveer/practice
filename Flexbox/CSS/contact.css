@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.html{
+    background: url('https://thumbs.dreamstime.com/b/contact-us-customer-support-hotline-people-connect-call-custo-130157516.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-attachment: fixed;
+}
+.top{
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 120px;
+    padding: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    color: lightskyblue;
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.head1{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    margin-left: 260px;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    margin-left: 25px;
+}
+li a{
+    text-decoration: none;
+    color: honeydew;
+}
+a:hover{
+    color: lightskyblue;
+}
+.button1{
+    width: 120px;
+    border:none;
+    border-radius: 10px;
+    color: balck;
+    background-color:honeydew;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 85px;
+    color: black;
+    border: 1px solid black;
+}
+.button1:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+/* Secti0n1 */
+.head2{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    color: lightskyblue;
+    font-size: 3.5rem;
+}
+
+/* Section2 */
+
+.reader{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    margin-top: 85px;
+    margin-right: 320px;
+    margin-left: 151px;
+}
+.writer{
+    padding: 20px;
+}
+.reader h1{
+    font-size: 3rem;
+}
+.foam-start{
+    padding: 5px;
+}
+.form-blocks
+{
+    display: block;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.reader2{
+    padding: 20px;
+}  
+.reader2 h2{
+    padding: 10px;
+    padding-left: 0%;
+}
+.reader2 h3{
+    padding: 10px;
+    padding-left: 0%;
+}
+.para{
+    padding-bottom: 20px;
+}
+.nav-link{
+    padding-top: 40px;
+    padding: 20px;
+}
+.d-inline {
+    display: inline!important;
+}

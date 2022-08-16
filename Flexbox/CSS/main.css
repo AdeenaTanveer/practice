@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+    
+    /* Header */
+.span1{
+    color: darkred;
+}
+
+.large-heading::first-letter{
+    font-size: 2.5rem;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid darkred ;
+    background-color: beige;
+    padding: 30px;
+    position: fixed;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {padding: 10px;}
+
+a{
+    text-decoration: none;
+    color: darkred;
+    padding: 10px;
+}
+a:hover{
+    color: red;
+    border-radius: 10px;
+}
+.form-control{
+    border: 1px solid darkred;
+    border-radius: 9px;
+    
+    background-color: beige;
+    padding: 9px;
+}
+button{
+    border: none;
+    border-radius: 9px;
+    background-color: darkred;
+    color: beige;
+    padding: 10px;
+}
+   /* End of Header */
+
+   /* Section 1 */
+.navigation2{
+    background: url('https://media.istockphoto.com/photos/the-perfect-setting-to-complete-work-picture-id1251629816?k=20&m=1251629816&s=612x612&w=0&h=VmGljiSf8_Ps6vPnfMGFPn14sW8TJw-eaqT7LCwkjEo=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    align-items: center;
+}
+.navigation3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 324px;
+    width: 70%;
+    padding-left: 120px;
+   
+    padding-bottom: 162px;
+  
+    
+}
+
+.heading1{
+    background-color: bisque;
+    font-size: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 520px;
+   padding-left: 15px; 
+  
+}
+
+
+
+
+.para1{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 27px; 
+   font-size: 20px;
+   width: 750px;
+   color: beige;
+    
+}
+/* Foam */
+.span1{
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    padding-bottom: 0px;
+}
+.span2{
+    text-align: center;
+    padding: 10px;
+    
+    color: darkred;
+}
+.navigation4{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+    border: 4px solid darkred;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+}
+.foam-start{
+    padding: 2px;
+    text-align: center;
+}
+.formulation{
+    padding: 10px;
+    border-radius: 5px;
+    border:  2px solid darkred;
+}
+
+.button1{
+    width: 195px;
+    padding: 13px;
+    margin-top: 5px;
+}
+.button1:hover{
+    background-color: beige;
+    color: darkred;
+    border: 2px solid darkred;
+}
+/* Foam */
+/* End of Section 1 */
+
+
+/* Section 2 */
+ .navigation5{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+    height: 350px;
+    padding-top: 50px;
+
+}
+.navigation5 h1{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+} 
+.initialization{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#choco-coco{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    background-color: black;
+   border-style: dotted;
+   height: 10px;
+
+   padding-left: 86px;
+   align-self: center;
+}
+
+
+
+
+.device-width{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+}
+
+.angular{
+    padding: 25px;
+    text-align: center;
+}
+.angular h2{
+    padding: 10px;
+}
+
+.portion1{
+    background: url('https://www.phoneworld.com.pk/wp-content/uploads/2021/10/laptop-keyboard-not-working-hero.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 395px;
+    justify-content: space-around;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    padding-top: 40px;
+
+    
+
+}
+
+.portion1 h1{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.portion2{
+    display: flex;
+   
+}
+.para7{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+
+.projects h1{
+    font-size: 2.5rem;
+}
+
+.tagg{
+    display: flex;
+    height: 300px;
+    margin-left: 145px;
+    margin-right: 145px;
+   
+ 
+}
+.pac1 img{
+    height: 170px;
+    width: 200px;
+  
+    
+
+}
+.pac1{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: darkred;
+    color: beige;
+    padding: 20px;
+    width: 245px;
+    border-radius: 8px;
+}
+
+.div-tag8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color:beige;
+    color: darkred;
+    border-top: 2px solid darkred;
+    flex-wrap: wrap;
+   
+}
